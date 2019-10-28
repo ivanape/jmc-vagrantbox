@@ -27,4 +27,7 @@ Vagrant.configure(2) do |config|
 
   #Generate box with
   #vagrant package --output jmc.box
+
+  #Publish on vagrant cloud
+  #vagrant cloud publish programwar/jmc 0.0.1 virtualbox jmc.box
 end

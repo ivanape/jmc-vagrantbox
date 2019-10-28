@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |config|
+    config.vm.box = "programwar/jmc"
+    config.vm.box_version = "0.0.1"
+
+    config.vm.provider "virtualbox" do |vb|
+        vb.gui = true
+        vb.memory = 4096
+        vb.name = "JMC VM"
+      end    
+  end
